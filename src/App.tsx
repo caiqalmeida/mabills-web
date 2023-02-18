@@ -1,9 +1,12 @@
 import React from "react"
+import { ChakraProvider, Heading } from "@chakra-ui/react"
 
 function App() {
 	return (
 		<>
-			<h1>Hello Mabills</h1>
+			<ChakraProvider>
+				<Heading>Hello Mabills</Heading>
+			</ChakraProvider>
 		</>
 	)
 }
