@@ -1,5 +1,3 @@
-import React from "react";
-
 const PageLoading = () => {
 	return <div>Page is laoding ...</div>;
 };
